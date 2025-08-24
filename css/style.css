@@ -1,0 +1,64 @@
+
+body {
+    background-color: white;
+}
+ 
+ h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px
+} 
+
+ p {
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman',Times. serif; 
+    display: row;
+    grid-template-rows:50% 50%;
+    justify-content: :left;
+}
+
+h2 {
+    font-size: 135% ;
+}
+
+div {
+    background-color: antiquewhite;
+}
+
+.tupleo {
+    display: grid;
+    grid-template-rows: 50%, 50%;
+    justify-content: center;
+}
+ 
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav a{ 
+    text-decoration: none;
+    font-size: x-large;
+    border: 3px;
+    border-style: double;
+    border-color: black;
+    padding: 4px;
+} 
+
+ h1 {
+    background-color: #99BADD ;
+    border: 2px;
+    border-style: outset;
+    padding: 5px;
+}
+
+nav a:hover{
+    text-decoration: none;
+    background-color: lightgreen;
+    border: 3px;
+    padding: 4px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+} 
