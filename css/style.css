@@ -5,16 +5,16 @@ body {
  
  h1 {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia,'Times New Roman', Times, serif;
     font-size: 40px
 } 
 
  p {
     font-size: 120%;
-    font-family: Georgia, 'Times New Roman',Times. serif; 
+    font-family: Georgia,'Times New Roman',Times, serif; 
     display: row;
     grid-template-rows:50% 50%;
-    justify-content: :left;
+    justify-content: left;
 }
 
 h2 {
